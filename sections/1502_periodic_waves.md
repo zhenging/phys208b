@@ -3,6 +3,12 @@ tags: []
 ---
 
 ### 1502 Periodic Waves
+The wavelength $\lambda$ of the wave is the distance from one crest to the next, or from one trough to the next, or from any poiint ot the corresponding point on the next repetition of the wave shape. The wave pattern travels with constant speed $v$ and advances a distance of one wavelength $\lambda$ in a time interval of one period $T$. So the wave speed is $v = \lambda /T$, or because $f = 1/T$.
+$$
+\begin{aligned}
+v = \lambda f
+\end{aligned}
+$$
 
 #### Exercises
 1, 2, 4, 5
@@ -30,8 +36,27 @@ Todo
 
 15.4 **BIO** Ultrasound Imaging. Sound having frequencies above the range of human hearing (about 20,000 Hz) is called ultrasound. Waves above this frequency can be used to penetrate the body and to produce images by reflecting from surfaces. In a typical ultrasound scan, the waves travel through body tissue with a speed of $1500$ m/s. For a good, detailed image, the wavelength should be no more than 1.0 mm. What frequency sound is required for a good scan?
 >Solution
-Todo
+$$
+\begin{aligned}
+\lambda &= 10^{-3} m\\
+v &= 1500m/s\\
+f &= \frac{v}{\lambda} = \frac{1500}{10^{-3}} = 1.5 \times 10^6 Hz
+\end{aligned}
+$$
 
 15.5 **BIO** (a) Audible wavelengths. The range of audible frequencies is from about 20 Hz to 20,000 Hz. What is the range of the wavelengths of audible sound in air? (b) Visible light. The range of visible light extends from 380 nm to 750 nm. What is the range of visible frequencies of light? (c) Brain surgery. Surgeons can remove brain tumors by using a cavitron ultrasonic surgical aspirator, which produces sound waves of frequency 23 kHz. What is the wavelength of these waves in air? (d) Sound in the body. What would be the wavelength of the sound in part (c) in bodily fluids in which the speed of sound is $1480$ m/s but the frequency is unchanged?
 >Solution
-Todo
+a. Audible wavelength
+$$
+\begin{aligned}
+\lambda_{lo} &= \frac{v_s}{f_{hi}} = \frac{344}{20000} = 0.0172m\\
+\lambda_{hi} &= \frac{v_s}{f_{lo}} = \frac{344}{20} = 17.2m
+\end{aligned}
+$$
+b. Light
+$$
+\begin{aligned}
+\lambda_{lo} &= \frac{v_l}{f_{hi}} = \frac{3.0 \times 10^8}{750 \times 10^{-6}} = 4 \times 10^{11}m\\
+\lambda_{hi} &= \frac{v_l}{f_{lo}} = \frac{3.0 \times 10^8}{380 \times 10^{-6}} = 7.89 \times 10^{11}m
+\end{aligned}
+$$
