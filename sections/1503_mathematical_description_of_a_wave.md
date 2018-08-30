@@ -144,7 +144,7 @@ $$
 
 15.10 A water wave traveling in a straight line on a lake is described by the equation
 $$
-y(x, t) = (2.75 \text{ cm}) \cos(0.410 \text{ rad/cm x} + 6.20 \text{rad/s t})
+y(x, t) = (2.75 \text{ cm}) \cos(0.410 \text{ rad/cm } x + 6.20 \text{ rad/s }t)
 $$
 where $y$ is the displacement perpendicular to the undisturbed surface of the lake.
 (a) How much time does it take for one completewave pattern to go past a fisherman in a boat at anchor, and what horizontal distance does the wave crest travel in that time?

@@ -28,8 +28,28 @@ $$
 
 #### Exercises
 22, 23
-15.22 A piano wire with mass $3.00$ g and length $80.0$ cm is stretched with a tension of $25.0$ N. A wave with frequency $120.0$ Hz and amplitude 1.6 mm travels along the wire. 
-(a) Calculate the average power carried by the wave.
-(b) What happens to the average power if the wave amplitude is halved?
 
-15.23 A horizontal wire is stretched with a tension of $94.0$ N, and the speed of transverse waves for the wire is $406$ m/s. What must the amplitude of a traveling wave of frequency $69.0$ Hz be for the average power carried by the wave to be $0.365$ W?
+15.22 A piano wire with mass $3.00$ g and length $80.0\text{ cm}$ is stretched with a tension of $25.0\text{ N}$ . A wave with frequency $120.0\text{ Hz}$ and amplitude 1.6 mm travels along the wire. (a) Calculate the average power carried by the wave. (b) What happens to the average power if the wave amplitude is halved?
+>Solution
+$$
+\begin{aligned}
+\mu &= \frac{0.003}{0.8} = 0.00375 \text{ kg/m}\\
+\omega &= 2\pi \times 120 = 240\pi \text{ rad/s} \\
+A &= 1.6 \times 10^{-3} \text{ m} \\
+P_{av} &= \frac{1}{2}\sqrt{\mu F} \omega^2 A^2\\
+&=\frac{1}{2}\sqrt{0.00375 \times 25} \times (240\pi)^2 \times  (1.6 \times 10^{-3})^2\\
+&= 0.22 \text{ W}
+\end{aligned}
+$$
+If the wave amplitude is halved, the average power will be reduced to a quarter of the origin.
+
+15.23 A horizontal wire is stretched with a tension of $94.0 \text{ N}$, and the speed of transverse waves for the wire is $406 \text{ m/s}$. What must the amplitude of a traveling wave of frequency $69.0\text{ Hz}$ be for the average power carried by the wave to be $0.365 \text{ W}$?
+>Solution
+$$
+\begin{aligned}
+P_{av} &= \frac{1}{2}\sqrt{\mu F} \omega^2 A^2\\
+\To A &= \sqrt{\frac{2P_{av}}{\omega^2\sqrt{\mu F}}} = \sqrt{\frac{2P_{av}}{\omega^2\sqrt{\frac{F}{v^2} \times F}}} = \sqrt{\frac{2P_{av}v}{\omega^2 F}}\\
+&= \sqrt{\frac{2\times 0.365 \times 406}{(2\pi \times 69)^2 \times 94}}\\
+&= 0.0041 \text{ m}
+\end{aligned}
+$$

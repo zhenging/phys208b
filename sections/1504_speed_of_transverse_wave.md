@@ -4,7 +4,7 @@ tags: []
 
 ### 1504 Speed Of Transverse Wave
 
-#### Waven Speed on a String
+#### Wave Speed on a String
 $$
 \begin{aligned}
 v = \sqrt{\frac{F}{\mu}} \quad \bold{(15.14)}
