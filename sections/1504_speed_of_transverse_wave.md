@@ -12,7 +12,13 @@ v = \sqrt{\frac{F}{\mu}} \quad \bold{(15.14)}
 $$
 $v$ - Speed of a transverse wave on a string
 $F$ - Tension in string
-$\mu$ - Mass per unit length
+$\mu$ - Mass per unit length.
+
+#### The Speed of Mechanical Waves
+$$
+v = \sqrt{\frac{\text{Restoring force returing the system to equilibrium}}{\text{Inertia resisting the return to equilibrium}}}
+$$
+The tension $F$ in the string plays the role of the restoring force; it tends to bring the string back to its undisturbed, equilibrium configuration. The mass of the string - or, more properly, the linear mass density $\mu$ provides the inertia that prevents the string from returning instantaneously to equilibrium.  Hence we have $v =\sqrt{\dfrac{F}{\mu}}$ for the speed of waves on a string.
 
 #### Exercises
 15, 18, 19

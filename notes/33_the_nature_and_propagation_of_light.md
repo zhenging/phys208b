@@ -1,4 +1,4 @@
-### Ch. 01 Units, Physical Quantities, and Vectors
+### Ch 33 The Nature and Propagation of Light
 
 #### Learning Objectives
 1. Understand the types of Electromagnetic waves, and how they relate to visible light and rays of light

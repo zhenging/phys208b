@@ -3,6 +3,7 @@ tags: []
 ---
 
 ### 1503 Mathematical Description of a Wave
+
 #### Wave Function
 Waves on a string are transverse; during wave motion a particle with equilirum position $x$ is displaced some distance $y$ in the direction perpendicular to the x-axis. The value of $y$ depends on which particle we are takling about ($x$), and also on the time $t$. Thus $y$ is a function of both $x$ and $t$.
 $$
@@ -20,31 +21,18 @@ y(x=0, t) = A\cos(\omega t) = A \cos(2\pi f t) \quad \bold{(15.2)}
 $$
 The wave disturbance traves from $x=0$ to some point x to the right of the origin in an mount of time given by $\dfrac{x}{v}$, where $v$ is the wave speed. So the motion of point $x$ at time $t$ is the same at the motion of point $x=0$ at the earlier time $(t-\dfrac{x}{v})$. Hence we can find the displacement of point $x$ at time $t$ by simpley replacing $t$ in Eq. (15.2) by $(t-\dfrac{x}{v})$.
 $$
-\begin{aligned}
 y(x, t) = A\cos\lb \omega (t - \frac{x}{v})\rb
-\end{aligned}
 $$
 Because $\cos \th = \cos(-\th)$, we can rewrite the wave function as
 $$
-\begin{aligned}
-y(x, t) = A\cos\lb \omega (\frac{x}{v} - t)\rb
-\end{aligned} \quad \bold{(15.3)}
+y(x, t) = A\cos\lb \omega (\frac{x}{v} - t)\rb \quad \bold{(15.3)}
 $$
-$y$ - Wave function form a sinusoidal wave propagating;
-$A$ - Amplitude
-$\omega$ - Angular frequency = $2\pi f$
-$v$ - Wave speed
-$x$ - Position
-$t$ - Time
-
-Express Eq. (15.3) in terms of period $T=1/f$ and the wavenlength $\lambda = v/f = \frac{2\pi v}{\omega}$:
+Express Eq. (15.3) in terms of period $T=1/f$ and the wavenlength $\lambda = v/f = \dfrac{2\pi v}{\omega}$:
 $$
-\begin{aligned}
-y(x, t) = A\cos\lb 2\pi (\frac{x}{\lambda} - \frac{t}{T})\rb
-\end{aligned} \quad \bold{(15.4)}
+y(x, t) = A\cos\lb 2\pi (\frac{x}{\lambda} - \frac{t}{T})\rb \quad \bold{(15.4)}
 $$
 
-Let $k = \frac{2\pi}{\lambda}$ (called **wave number**), we have $\lambda = 2\pi k$. We can then rewrite Eq. (15.4) as
+Let $k = \dfrac{2\pi}{\lambda}$ (called **wave number**), we have $\lambda = 2\pi k$. We can then rewrite Eq. (15.4) as
 $$
 \begin{aligned}
 y(x, t) = A\cos(kx - \omega t)
@@ -60,10 +48,34 @@ y(x, t) = A\cos\lb \omega (\frac{x}{v} + t)\rb =  A\cos\lb 2\pi (\frac{x}{\lambd
 $$
 
 #### Particial Velocity and Acceleration in a Sinusoidal Wave
-Waven equation involves second partial derivatives of wave function
+From the wave equation we can get an expression for the transverse velocity of any particle in a transverse wave. We can this $v_y$ to distinguish it from the wave propagation speed $v$. To find the transverse velocity $v_y$ at a particular point $x$, we take the derivative of wave function $y(x, t)$ with respect to $t$, keeping $x$ constant. If the wave function is
+$$
+y(x, t) = A\cos(kx - \omega t)
+$$
+then
+$$
+v_y(x, t) = \frac{\partial y(x, t)}{\partial t} = \omega A \sin(kx - \omega t) \quad \bold{(15.9)}
+$$
+Equation (15.9) shows that the transverse velocity of a particle varies with time, as we expect for SHM. The maximum particle speed is $\omega A$; this can be greater than, less, or equal to the wave speed $v$, depending on the amplitude and frequency of the wave.
+The acceleration of any particle is the second partial derivative of $y(x, t)$ with respect to $t$
 $$
 \begin{aligned}
-\frac{\partial^2y(x, t)}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y(x, t)}{\partial t^2} \quad \bold{(15.12)}
+a_y(x, t) = \frac{\partial^2 y(x, y)}{\partial t^2} &=-\omega^2 A \cos(kx - \omega t)\\
+&= -\omega^2 y(x, t) &\bold{(15.10)}
+\end{aligned}
+$$
+We can also compute partial derivative of $y(x, t)$ with respect to $x$, holding $t$ constant. The first derivative $\frac{\partial y(x, t)}{\partial x}$ is the slope of the string at point $x$ and at time $t$. The second partial derivative with respect to $x$ tells us the curvature of the string.
+$$
+\frac{\partial^2 y(x, y)}{\partial x^2} = -k^2 A \cos(kx - \omega t) = -k^2 y(x, t) \quad\bold{(15.11)}
+$$
+From Eqs. (15.10) and (15.11) and the relationship $\omega  = vk$ we see that
+$$
+\frac{\partial^2 y(x, t) / \partial t^2}{\partial^2 y(x, t) / \partial x^2} = \frac{\omega^2}{k^2} = v^2
+$$
+and
+$$
+\begin{aligned}
+\frac{\partial^2 y(x, t)}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 y(x, t)}{\partial t^2} \quad \bold{(15.12)}
 \end{aligned}
 $$
 
@@ -77,7 +89,7 @@ $$
 (c) Find the transverse displacement of a particle at $x = 0.360$ m at time $t = 0.150$ s.
 (d) How much time must elapse from the instant in part (c) until the particle at x = 0.360 m next has maximum upward displacement?
 >Solution
-a. Frequency $f = \dfrac{v}{\lambda} = \frac{8}{0.32} = 25 \text{Hz}$
+a. Frequency $f = \dfrac{v}{\lambda} = \dfrac{8}{0.32} = 25 \text{Hz}$
 Period $T = \dfrac{1}{f} = 0.04s$
 Wave number $k = \dfrac{2\pi}{\lambda} = \dfrac{2\pi}{0.32} = 6.25 \pi \text{ rad/m}$
 b. Waven function. (negative x-axis)
@@ -103,7 +115,7 @@ y(x, t) &= 0.07 \cos(6.25 \pi x + 50\pi t)\\
 \To t &= 0.035 + nT\text{ s}\\
 t &\gt 0.15\\
 \To &n > 2.875 \\
-\Delta t = 0.035 + 3 \times 0.04 - 0.15 = 0.005 \text{s}
+\Delta t &= 0.035 + 3 \times 0.04 - 0.15 = 0.005 \text{s}
 \end{aligned}
 $$
 The moment $y$ has the maximum upward displacement after $t=0.15 \text{s}$ is when $n = 3$, and the time elapsed is $0.005$ s.
@@ -120,9 +132,15 @@ Frequency, $f = \dfrac{1}{T} = \dfrac{1}{0.036 \text{ s}} = 27.8 \text{ Hz}$
 Speed of propagtion, $v = \lambda f = 0.28 \times 27.8 = 7.8 \text{ m/s}$
 Direction of progation, **positive** x-direction.
 
-15.9 **CALC** Which of the following wave functions satisfies the wave equation, Eq. (15.12)? (a) $y(x, t) = A(\cos{kx + \omega t})$; (b) $y(x, t) = A(\sin{kx + \omega t})$; (c) $y(x, t) = A(\cos{kx} + \cos{\omega t})$. (d) For the wave of part (b), write the equations for the transverse velocity and transverse acceleration of a particle at point x.
+15.9 **CALC** Which of the following wave functions satisfies the wave equation, Eq. (15.12)? (a) $y(x, t) = A\cos(kx + \omega t)$; (b) $y(x, t) = A\sin(kx + \omega t)$; (c) $y(x, t) = A(\cos{kx} + \cos{\omega t})$. (d) For the wave of part (b), write the equations for the transverse velocity and transverse acceleration of a particle at point x.
 >Solution
-Todo
+$a$ and $b$ are wave equations.
+$$
+\begin{aligned}
+v_y(x, t) &= \frac{\partial y(x, t)}{\partial t} = \omega A\cos(kx + \omega t)\\
+a_y(x, t) &= \frac{\partial^2 y(x, t)}{\partial t^2} = -\omega^2 A\sin(kx + \omega t)
+\end{aligned}
+$$
 
 15.10 A water wave traveling in a straight line on a lake is described by the equation
 $$
@@ -183,4 +201,21 @@ y(x, t) &= A\cos\lb \frac{2\pi}{vT} (x - vt)\rb\\
 y(x, t) &= A\cos\lb \frac{2\pi}{\lambda} (x - vt)\rb\\
 \end{aligned}
 $$
-b. Todo
+b. Let $k=\dfrac{2\pi}{\lambda}, \omega = 2\pi f$,
+$$
+\begin{aligned}
+y(x, t) &= A\cos\lb \omega (\frac{x}{v} - t)\rb\\
+&= A\cos(kx - \omega t)\\
+v_y(x, t) &= \frac{\partial y(x, t)}{\partial t} =\omega A\sin(kx - \omega t)
+\end{aligned}
+$$
+c.
+$$
+\begin{aligned}
+v &= \lambda f\\
+v_{ymax} &= \omega A = 2\pi f A\\
+v_{ymax} &\gt v \To A \gt \frac{\lambda}{2\pi}\\
+v_{ymax} &= v \To A = \frac{\lambda}{2\pi}\\
+v_{ymax} &\lt v \To A \lt \frac{\lambda}{2\pi}\\
+\end{aligned}
+$$
