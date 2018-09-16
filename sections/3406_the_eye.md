@@ -36,6 +36,8 @@ b. Converging Lens
 c. $f=52.2\text{cm}$
 d. $\frac{1}{f} = 1.92 \text{ diopters}$
 
+34.53 Ordinary Glasses. Ordinary glasses are worn in front of the eye and usually 2.0 cm in front of the eyeball. Suppose that the person in Exercise 34.52 prefers ordinary glasses to contact lenses. What focal length lenses are needed to correct his vision, and what is their power in diopters?
+
 34.54 A person can see clearly up close, but cannot focus on objects beyond 78.0 cm. She opts for contact lenses to correct her vision.
 (a) Is she nearsighted or farsighted?
 (b) What type of lens (converging or diverging) is needed to correct her vision?

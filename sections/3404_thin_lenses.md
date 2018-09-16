@@ -9,7 +9,7 @@ tags: []
 
 34.27 An insect 4.25 mm tall is placed 20.0 cm to the left of a thin  planoconvex lens. The left surface of this lens is flat, the right surface has a radius of curvature of magnitude 12.3 cm , and the index of refraction of the lens material is 1.70. (a) Calculate the location of the image this lens forms of the insect. (b) Calculate the size of the image.
 >Solution
-1\. The lensis a converging lense. The focal length can be resolved by lensmaker's formula.
+1\. The lensis a converging lens. The focal length can be resolved by lensmaker's formula.
 $$
 \begin{aligned}
 \frac{1}{f} &= (n-1)(\frac{1}{R_1} - \frac{1}{R_2})\\
@@ -17,7 +17,7 @@ R_1 &= 12.3 \text{cm} \quad R_2 = \infty\\
 \To f &= 17.6\text{cm}
 \end{aligned}
 $$
-2\. The image distance from the lense.
+2\. The image distance from the lens.
 $$
 \begin{aligned}
 \frac{1}{f} &= \frac{1}{I} + \frac{1}{O}\\
@@ -68,7 +68,7 @@ $$
 (c) What is the focal length of the lens?
 (d) Is the lens converging or diverging?
 >Solution
-(a) The object distance is $\frac{6}{78} \text{m} 0.077\text{m}$.
+(a) The object distance is $\frac{6}{78} \text{m} = 0.077\text{m}$.
 (b) The images is real and inverted.
 (c) The focal length is $f = (\frac{1}{6} + \frac{78}{6})^{-1} = 0.076\text{m}$.
 (d) THe lens is a converging lens.

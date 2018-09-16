@@ -24,11 +24,18 @@ r_2 - r_1 = (m + \frac{1}{2}) \lambda (m = 0, \pm 1, \pm 2 \cdots) &\quad\text{(
 $$
 
 #### Exercises
-6
+5, 6
 
-(6) Two light sources can be adjusted to emit monochromatic light of any visible wavelength. The two sources are coherent, $2.04\mu$m apart, and in line with an observer, so that one source is $2.04\mu$m farther from the observer than the other. (a) For what visible wavelengths ($380$ to $750$ nm) will the observer see the brightest light, owing to constructive interference? (b) How would your answers to part (a) be affected if the two sources were not in line with the observer, but were still arranged so that one source is $2.04\mu$m farther away from the observer than the other? (c) For what visible wavelengths will there be destructive interference at the location of the observer?
+35.5 Two speakers, emitting identical sound waves of wavelength 2.0 m in phase with each other, and an observer are located as shown in the figure (Figure 1).
+![Graph](../assets/YF-35-05.jpg)
+(a) At the observer's location, what is the path difference for waves from the two speakers?
+(b)
 >Solution
-**a.** Let the path difference be $d = 2.04 \times 10^{-6}\text{m}$, and the wavelength be $\lambda | \lb 3.8 \times 10^{-7}, 7.5 \times 10^{-7}\rb$. FOr brightest light, we are looking for constructive interference where $d = m \lambda$.
+a. 2m.
+
+35.6 Two light sources can be adjusted to emit monochromatic light of any visible wavelength. The two sources are coherent, $2.04\mu$m apart, and in line with an observer, so that one source is $2.04\mu$m farther from the observer than the other. (a) For what visible wavelengths ($380 to 750 nm) will the observer see the brightest light, owing to constructive interference? (b) How would your answers to part (a) be affected if the two sources were not in line with the observer, but were still arranged so that one source is $2.04\mu$m farther away from the observer than the other? (c) For what visible wavelengths will there be destructive interference at the location of the observer?
+>Solution
+a. Let the path difference be $d = 2.04 \times 10^{-6}\text{m}$, and the wavelength be $\lambda | \lb 3.8 \times 10^{-7}, 7.5 \times 10^{-7}\rb$. FOr brightest light, we are looking for constructive interference where $d = m \lambda$.
 $$
 \begin{aligned}
 \lambda &= \frac{d}{m}\\
@@ -41,8 +48,8 @@ $$
  \end{aligned}
 $$
 The valid wavelength are $\lambda = 680\text{nm}, 510\text{nm}, 408\text{nm}, 380\text{nm}$.
-**b.** Not affected.
-**c.** For destructive interference $d = (m + \frac{1}{2} \lambda)$
+b. Not affected.
+c.For destructive interference $d = (m + \frac{1}{2} \lambda)$
 $$
 \begin{aligned}
 \lambda &= \frac{d}{m + \frac{1}{2}}\\
