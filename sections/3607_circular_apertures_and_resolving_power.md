@@ -12,7 +12,6 @@ $$
 \sin \th_1 = 1.22 \frac{\lambda}{D} \quad \bold{(36.17)}
 $$
 $\th_1$ - Angular radius of first dark ring = Angular radius of Airy disk
-$\lambda$ - Wavelengt
 $D$ - Aperture Diameter
 
 #### Exercises
@@ -37,10 +36,23 @@ $$
 The diameter of the Airy disk is 2R = 92 cm.
 
 36.38 Monochromatic light with wavelength 490 nm passes through a circular aperture, and a diffraction pattern is observed on a screen that is 1.20 m from the aperture. If the distance on the screen between the first and second dark rings is 1.65 mm, what is the diameter of the aperture?
+>Solution
+Todo
 
 36.39 Two satellites at an altitude of 1200 km are separated by 28 km. If they broadcast 3.6-cm microwaves, what minimum receiving-dish diameter is needed to resolve (by Rayleigh’s criterion) the two transmissions?
+>Solution
+Let the angle between the two lines from the dish to the two satellites be $\th$
+$$
+\begin{aligned}
+\th &= 2\arcsin(\frac{14}{1200})\\
+\sin \th &= 1.22 \frac{\lambda}{D}\\
+\To D &= \frac{1.22 \lambda}{\sin \th} = 1.88 \text{ m}
+\end{aligned}
+$$
 
 36.40 If you can read the bottom row of your doctor’s eye chart, your eye has a resolving power of 1 arcminute, equal 1 to 60 degree. If this resolving power is diffraction limited, to what effective diameter of your eye’s optical system does this correspond? Use Rayleigh’s criterion and assume $\lambda$ = 550 nm.
+>Solution
+Todo
 
 36.62 The maximum resolution of the eye depends on the diameter of the opening of the pupil (a diffraction effect) and the size of the retinal cells. The size of the retinal cells (about 5.00 μm in diameter) limits the size of an object at the near point (25.0 cm ) of the eye to a height of about 50.0 μm . (To get a reasonable estimate without having to go through complicated calculations, we shall ignore the effect of the fluid in the eye.)
 (a) Given that the diameter of the human pupil is about 2.0 mm, does the Rayleigh criterion allow us to resolve a 50 $\mu m$tall object at 25 cm from the eye with light of wavelength 550 nm?
