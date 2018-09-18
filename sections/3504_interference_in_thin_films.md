@@ -86,6 +86,5 @@ m = &0, t_1 = 2.9 \times 10^{-7} \text{ m} \To \lambda_{air1} = 514 \text{ nm}\\
 m = &0, t_1 = 3.4 \times 10^{-7} \text{ m} \To \lambda_{air2} = 603 \text{ nm}\\
 \end{aligned}
 $$
-When m = 0, $t = $
 a. 514 nm, yellow
 b. 603 nm, orange
