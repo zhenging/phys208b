@@ -47,3 +47,63 @@ y_m &= 1.35 \times 10^{-3} \text{ m}, a = 0.75 \times 10^{-3} \text{ m}, x = 2\t
 \To \lambda &= 506.25 \text{ nm}
 \end{aligned}
 $$
+
+36.2 Parallel rays of green mercury light with a wavelength of 546 nm pass through a slit covering a lens with a focal length of 60.0 cm. In the focal plane of the lens, the distance from the central maximum to the first minimum is 8.65 mm. What is the width of the slit?
+>Solution
+The lens here makes the rays parallel. In this case, m = 1
+$$
+\begin{aligned}
+\sin\th &\approx \tan\th = \frac{0.865}{60}\\
+\sin\th &= \frac{m \lambda}{a} \\
+\To a&= \frac{m \lambda}{\sin\ \th} =  0.038 \text{ mm} 
+\end{aligned}
+$$
+
+36.3 Light of wavelength 585 nm falls on a slit 0.0666 mm wide.
+(a) On a very large and distant screen, how many totally dark fringes (indicating complete cancellation) will there be, including both sides of the central bright spot? Solve this problem without calculating all the angles! (Hint: What is the largest that $\sin \th$ can be? What does this tell you is the largest that m can be?)
+(b) At what angle will the dark fringe that is most distant from the central bright fringe occur?
+>Solution
+$$
+\begin{aligned}
+\sin \th &= \frac{m \lambda}{a} < 1\\
+\lambda &= 585 \text{ nm}, a = 0.0666 \text{ mm}\\
+\To & m < 113.9
+\end{aligned}
+$$
+There are 113 dark fringe at one side of the center bright spot, the total will be 113 * 2 = 226. When m = 113, $\th = \pm 83 \degree$.
+
+36.5 Diffraction occurs for all types of waves, including sound waves. High-frequency sound from a distant source with wavelength 9.00 cm passes through a slit 12.0 cm wide. A microphone is placed 8.00 m directly in front of the center of the slit, corresponding to point O in Fig. 36.5a. The microphone is then moved in a direction perpendicular to the line from the center of the slit to point O. At what distances from O will the intensity detected by the microphone be zero?
+>Solution
+For the intensity to be zero, the destructive interference occurs (Dark fringe).
+$$
+\begin{aligned}
+\sin \th &= \frac{m \lambda}{a} = \frac{3}{4}
+\end{aligned}
+$$
+And (Small angle approximation does not apply, as the angle is not small)
+$$
+\begin{aligned}
+\tan \th &= \frac{y}{8}
+\end{aligned}
+$$
+Solve for $y$
+$$
+\begin{aligned}
+y &= 8\tan \th \\
+&= 8 \times \frac{3}{\sqrt 7} = 9.07 \text{ m}
+\end{aligned}
+$$
+
+36.11 Red light of wavelength 633 nm from a helium–neon laser passes through a slit 0.350 mm wide. The diffraction pattern is observed on a screen 3.00 m away. Define the width of a bright fringe as the distance between the minima on either side.
+(a) What is the width of the central bright fringe?
+(b) What is the width of the first bright fringe on either side of the central one?
+>Solution
+The distance from the first minima to the center of the bright fringe is
+$$
+\begin{aligned}
+y_1 &= x\frac{m \lambda}{a}\\
+x &= 3 \text{ m}, m = 1, \lambda = 6.33 \times 10^{-7} \text{ m}, a = 0.35 \times 10^{-3} \text{ m}\\
+\To y_1 &= 5.43 \text{ mm}
+\end{aligned}
+$$
+The width of the central bright fringe is $2y_1$ = 10.9 mm. The width of the first bright fringe on either side of the central one is 5.43 mm.
