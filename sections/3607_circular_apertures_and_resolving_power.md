@@ -59,3 +59,8 @@ Todo
 (b) According to the Rayleigh criterion, what is the shortest object we could resolve at the 25-cm near point with light of wavelength 550 nm?
 (c) What angle would the object in part (b) subtend at the eye? Express your answer in minutes (60 min = $1\degree$), and compare it with the experimental value of about 1 min.
 (d) Which effect is more important in limiting the resolution of our eyes: diffraction or the size of the retinal cells?
+>Solution
+a. No
+b. y = 84 $\mu$m
+c. $\th = 1.16 \text{ min}$
+d. Diffraction

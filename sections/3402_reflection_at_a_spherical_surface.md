@@ -17,7 +17,7 @@ tags: []
 (c) Determine the orientation of the image.
 (d) Determine the nature (real or virtual) of the image.
 >Solution
-a. 44cm left to the vertex of the mirror.
+a. 44 cm left to the vertex of the mirror.
 b. 1.73 cm
 c. Inverted.
 d. Real.
