@@ -48,7 +48,7 @@ F_{2 \text{ on } 3} &= \frac{k|q_2q_3|}{r_{23}^2}  = 84 \mu N\\
 \end{aligned}
 $$
 
-21.4 Two equal positive charges $q_1 = q_2 = 2.0 \mu$C are located at x = 0, y = 0.30 m and x = 0, y = -0.30 m, respectively. What are the magnitude and direction of the total electric force that $q_1$ and $q_2$ exert on a third charge $Q = 4.0 \mu$C at x = 0.40 m, y = 0?
+21.4 Two equal positive charges $q_1 = q_2 = 2.0 \mu C$ are located at x = 0, y = 0.30 m and x = 0, y = -0.30 m, respectively. What are the magnitude and direction of the total electric force that $q_1$ and $q_2$ exert on a third charge $Q = 4.0 \mu C$ at x = 0.40 m, y = 0?
 ![Graph](../assets/21_14.png)
 >Solution
 $$
@@ -86,7 +86,7 @@ $$
 \end{aligned}
 $$
 
-21.2 Lightning occurs when there is a flow of electric charge (principally electrons) between the ground and a thundercloud. The maximum rate of charge flow in a lightning bolt is about 20,000 C/s; this lasts for 100 $\mu$s or less. How much charge flows between the ground and the cloud in this time? How many electrons flow during this time?
+21.2 Lightning occurs when there is a flow of electric charge (principally electrons) between the ground and a thundercloud. The maximum rate of charge flow in a lightning bolt is about 20,000 C/s; this lasts for 100 $\mu s$ or less. How much charge flows between the ground and the cloud in this time? How many electrons flow during this time?
 >Solution
 Let the rate of charge flow be $v$, the time be $t$, the total charge during this time be $Q$, and the number of electron be $n_e$
 $$
@@ -120,7 +120,7 @@ F &= \frac{kq^2}{r^2} \\
 \end{aligned}
 $$
 
-21.12 A negative charge of -0.550 $\mu$C exerts an upward 0.600-N force on an unknown charge that is located 0.300 m directly below the first charge. What are (a) the value of the unknown charge (magnitude and sign); (b) the magnitude and direction of the force that the unknown charge exerts on the -0.550 $\mu$C charge?
+21.12 A negative charge of -0.550 $\mu C$ exerts an upward 0.600-N force on an unknown charge that is located 0.300 m directly below the first charge. What are (a) the value of the unknown charge (magnitude and sign); (b) the magnitude and direction of the force that the unknown charge exerts on the -0.550 $\mu C$ charge?
 >Solution
 a. The unknow charge is positive. Let the negative charge be $q_1$, the unkonw charge be $q_2$, the distance be $r$, and the magnitude of the
 force be $F$
@@ -133,7 +133,7 @@ F &= \frac{k|q_1q_2|}{r^2}\\
 $$
 b. The unknow charge exerts a downward force of 0.6 N on the first negative charge.
 
-21.17 Three point charges are arranged along the x-axis. Charge $q_1 = +3.00 \mu$C is at the origin, and charge $q_2 = -5.00 \mu$C is at x = 0.200 m. Charge $q_3 = - 8.00 \mu$C. Where is $q_3$ located if the net force on $q_1$ is 7.00 N in the - x-direction ?
+21.17 Three point charges are arranged along the x-axis. Charge $q_1 = +3.00 \mu C$ is at the origin, and charge $q_2 = -5.00 \mu C$ is at x = 0.200 m. Charge $q_3 = - 8.00 \mu C$. Where is $q_3$ located if the net force on $q_1$ is 7.00 N in the - x-direction ?
 >Solution
 Todo
 x=-0.144m
