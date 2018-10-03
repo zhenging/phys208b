@@ -33,8 +33,8 @@ e = 1.602176565(35) \times 10^{19} C
 \end{aligned}
 $$
 
-#### Examples
-21.3 Two point charges are located on the x-axis of a coordinate system: $q_1$ = 1.0 nC is at x = + 2.0 cm, and $q_2$ = -3.0 nC is at x = + 4.0 cm. What is the total electric force exerted by $q_1$ and $q_2$ on a charge $q_3$ = 5.0 nC at x = 0?
+#### Example 21.3 Vector Addtion Of Electric Forces On A Line
+Two point charges are located on the x-axis of a coordinate system: $q_1$ = 1.0 nC is at x = + 2.0 cm, and $q_2$ = -3.0 nC is at x = + 4.0 cm. What is the total electric force exerted by $q_1$ and $q_2$ on a charge $q_3$ = 5.0 nC at x = 0?
 ![Graph](../assets/21_13.png)
 >Solution
 $$
@@ -48,7 +48,8 @@ F_{2 \text{ on } 3} &= \frac{k|q_2q_3|}{r_{23}^2}  = 84 \mu N\\
 \end{aligned}
 $$
 
-21.4 Two equal positive charges $q_1 = q_2 = 2.0 \mu C$ are located at x = 0, y = 0.30 m and x = 0, y = -0.30 m, respectively. What are the magnitude and direction of the total electric force that $q_1$ and $q_2$ exert on a third charge $Q = 4.0 \mu C$ at x = 0.40 m, y = 0?
+#### Example 21.4 Vector Addtion Of Electric Forces On A Plane
+Two equal positive charges $q_1 = q_2 = 2.0 \mu C$ are located at x = 0, y = 0.30 m and x = 0, y = -0.30 m, respectively. What are the magnitude and direction of the total electric force that $q_1$ and $q_2$ exert on a third charge $Q = 4.0 \mu C$ at x = 0.40 m, y = 0?
 ![Graph](../assets/21_14.png)
 >Solution
 $$
