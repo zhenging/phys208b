@@ -4,6 +4,11 @@ tags: []
 
 ### 2105 Electric Field Calculations
 
+#### The Superposition of Electric Field
++ $\lm$ - linear charge density
++ $\sigma$ - surface charge density
++ $\rho$ - volume charge density
+
 #### Example 21.9 Field of A Ring of Charge
 Charge Q is uniformly distributed around a conducting ring of radius a (Fig. 21.23). Find the electric field at a point P on the ring axis at a distance x from its center.
 ![Graph](../assets/21_23.png)
@@ -11,12 +16,47 @@ Charge Q is uniformly distributed around a conducting ring of radius a (Fig. 21.
 $E = \dfrac{kQx}{(a^2 + x^2)^{\frac{3}{2}}} \hat i$
 
 #### Example 21.11 Field of A Uniformly Charged Disk
-A nonconducting disk of radius R has a uniform positive surface charge density s. Find the electric field at a point along the axis of the disk a distance x from its center. Assume that x is positive.
+A nonconducting disk of radius $R$ has a uniform positive surface charge density $\sigma$. Find the electric field at a point along the axis of the disk a distance $x$ from its center. Assume that x is positive.
 ![Graph](../assets/21_25.png)
+>Solution
+$E = \frac{\sigma}{2\epsilon_0}$
+A typical ring has charge $dQ$, inner radius $r$, and outer radius $r + dr$. Its area is approximately equal to its width $dr$ times its circumference $2\pi r$, or $dA = 2\pi r dr$. The charge per unit area is $\sigma = dQ/dA$, so the charge of the ring is $dQ = \sigma dA = 2\pi \sigma r dr$.
+The expression for the field due to a ring that we found in example 21.9,
+$$
+\begin{aligned}
+dE_x &= \frac{1}{4\pi \epsilon_0} \frac{2\pi \sigma r x dr}{(x^2 + r^2)^{3/2}}
+\end{aligned}
+$$
+To find the total field due to all the rings, we integrate $dE_x$, over $r$ from $r=0$ to $r=R$ (not from $-R$ to $R$):
+$$
+\begin{aligned}
+E_x &= \int_0^R \frac{1}{4\pi \epsilon_0} \frac{2\pi \sigma r x dr}{(x^2 + r^2)^{3/2}}\\
+&= \frac{\sigma x}{4 \epsilon_0} \int_0^R \frac{2 r dr}{(x^2 + r^2)^{3/2}}\\
+&= \frac{\sigma x}{2 \epsilon_0} \lb -\frac{1}{\sqrt{x^2 + R^2} + \frac{1}{x}} \rb\\
+&= \frac{\sigma}{2 \epsilon_0} \lb 1 -\frac{1}{\sqrt{R^2/x^2 + 1}} \rb \quad \bold{(21.11)}
+\end{aligned}
+$$
+If the disk is very large (or if we are close to it), so that $R \gg x$, the term $\frac{1}{\sqrt{R^2/x^2 + 1}}$ is very much less than 1. Then Eq. (21.11) becomes
+$$
+\begin{aligned}
+E = \frac{\sigma}{2\epsilon_0} \quad \bold{(21.12)}
+\end{aligned}
+$$
+Our final result does not contain the distance $x$ from the plane. Hence the electric field produced by an infinite plane sheet of charge is independent of the distance from the sheet. The field direction is everywhere perpendicular to the sheet, away from it. There is no such thing as an infinite sheet of charge, but if the dimensions of the sheet are much larger than the distance $x$ of the field point $P$ from the sheet, the field is very nearly given by Eq. (21.12)
 
 #### Example 21.12 Field of Two Oppositely Charged Infinite Sheets
 Two infinite plane sheets with uniform surface charge densities $+\sigma$ and $-\sigma$  are placed parallel to each other with separation d(Fig. 21.26). Find the electric field between the sheets, above the upper sheet, and below the lower sheet.
 ![Graph](../assets/21_26.png)
+>Solution
+$$
+\begin{aligned}
+\vec E = \vec E_1 + \vec E_2 = \begin{cases}
+0 &\text{Above the upper sheet}\\
+\frac{\sigma}{\epsilon_0}\jhat &\text{Between the sheets}\\
+0 &\text{Below the upper sheet}
+\end{cases}
+\end{aligned}
+$$
 
 #### Exercises
 36, 38, 42, 43, 62, 65, 79, 82, 85, 86, 88
@@ -30,7 +70,7 @@ Two infinite plane sheets with uniform surface charge densities $+\sigma$ and $-
 21.79 Positive charge Q is distributed uniformly along the x-axis from $x = 0$ to $x = a$. A positive point charge q is located on the positive x-axis at $x = a + r$, a distance $r$ to the right of the end of Q (Fig. P21.79).
 (a) Calculate the x- and y-components of the electric field produced by the charge distribution Q at points on the positive x-axis where $x > a$.
 (b) Calculate the force (magnitude and direction) that the charge distribution Q exerts on q.
-(c) Show that if $r >> a$, the magnitude of the force in part (b) is approximately $Qq /4\pi \epsilon_0 r^2$. Explain why this result is obtained.
+(c) Show that if $r \gg a$, the magnitude of the force in part (b) is approximately $Qq /4\pi \epsilon_0 r^2$. Explain why this result is obtained.
 ![Graph](../assets/21_79.png)
 >Solution
 a. Let the charge density be $\lm = \dfrac{Q}{a}$. At point x, the y-component of electric field is zero, and the x-component of electric field is the electri field produced by $dQ$ of the charge distribution Q.
@@ -46,7 +86,7 @@ E &= E_x \hat i = \frac{k Q}{r(a+r)} \hat i
 \end{aligned}
 $$
 b. The electric force $\vec F = Eq = \dfrac{k Qq}{r(a+r)} \hat i$. The direction is +x-axis.
-c. When $r >> a$,
+c. When $r \gg a$,
 $$
 \begin{aligned}
 r(a+r) &\approx r^2\\
@@ -58,7 +98,7 @@ $$
 21.82 Positive charge Q is distributed uniformly along the positive y-axis between $y = 0$ and $y = a$. A negative point charge $-q$ lies on the positive Q x-axis, a distance $x$ from the origin.
 (a) Calculate the x- and y-components of the electric field produced by the charge distribution Q at points on the positive x-axis.
 (b) Calculate the x- and y-components of the force that the charge distribution Q exerts on q.
-(c) Show that if $x >> a$, $F_x \approxeq \dfrac{-Qq}{4\pi\epsilon_0 x^2}$ and $F_y \approxeq \dfrac{+Qqa}{8\pi\epsilon_0 x^3}$. Explain why this result is obtained.
+(c) Show that if $x \gg a$, $F_x \approxeq \dfrac{-Qq}{4\pi\epsilon_0 x^2}$ and $F_y \approxeq \dfrac{+Qqa}{8\pi\epsilon_0 x^3}$. Explain why this result is obtained.
 ![Graph](../assets/21_82.png)
 >Solution
 Let the charge density be $\lm = Q/a$, we have $dQ = \lm \cdot dy$
@@ -135,3 +175,52 @@ E_{total} &= E_1 + E_2\\
 &= \frac{4kQ}{\pi a^2} \ihat
 \end{aligned}
 $$
+
+21.88 Two very large parallel sheets are 5.00 cm apart. Sheet A carries a uniform surface charge density of $-8.80\mu C/m^2$, and sheet B, which is to the right of A, carries a uniform charge density of $-11.6\mu C/m^2$. Assume that the sheets are large enough to be treated as infinite. Find the magnitude and direction of the net electric field these sheets produce at a point (a) 4.00 cm to the right of sheet A; (b) 4.00 cm to the left of sheet A; (c) 4.00 cm to the right of sheet B.
+>Solution
+The electric field produced by a uniformly charged sheet at any distance is given by
+$$
+\begin{aligned}
+E = \frac{\sigma}{2\epsilon_0}
+\end{aligned}
+$$
+Sheet A gives an electric field of
+$$
+\begin{aligned}
+E_A &= \frac{\sigma}{2\epsilon_0} = \frac{-8.8 \times 10^{-6}}{2\cdot 8.85 \times 10^{-12}}\\
+&= -4.97 \times 10^5 N/C
+\end{aligned}
+$$
+where the negative sign means the field points towards sheet A, in any point of the space.
+The electric field produced by sheet B is given by
+$$
+\begin{aligned}
+E_B &= \frac{\sigma}{2\epsilon_0} = \frac{-11.6 \times 10^{-6}}{2\cdot 8.85 \times 10^{-12}}\\
+&= -6.55 \times 10^5 N/C
+\end{aligned}
+$$
+and again, the negative sign means that the field at any point of the space points towards sheet B.
+a. 4.00 cm to the right of sheet A (between the two sheets)
+$$
+\begin{aligned}
+E &= E_A - E_B = -4.97 \times 10^5 N/C - (-6.55 \times 10^5 N/C)\\
+&= 1.58 \times 10^5 N/C
+\end{aligned}
+$$
+And the direction is towards sheet B.
+b. 4.00 cm to the left of sheet A
+$$
+\begin{aligned}
+E &= E_A + E_B = -4.97 \times 10^5 N/C + (-6.55 \times 10^5 N/C)\\
+&= -11.52\times 10^5 N/C
+\end{aligned}
+$$
+towards right.
+c. 4.00 cm to the right of sheet B.
+$$
+\begin{aligned}
+E &= E_A + E_B = -4.97 \times 10^5 N/C + (-6.55 \times 10^5 N/C)\\
+&= -11.52\times 10^5 N/C
+\end{aligned}
+$$
+toward left.
