@@ -5,6 +5,13 @@ tags: []
 ### 2105 Electric Field Calculations
 
 #### The Superposition of Electric Field
+The total electric field at $P$ is the vector of the fields at $P$ due to each point charge in the charge distribution.
+$$
+\begin{aligned}
+\vec{E} = \vec{E_1} + \vec{E_2} + \vec{E_3} + \cdots
+\end{aligned}
+$$
+
 + $\lm$ - linear charge density
 + $\sigma$ - surface charge density
 + $\rho$ - volume charge density
