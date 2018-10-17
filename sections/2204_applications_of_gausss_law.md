@@ -154,7 +154,7 @@ E_{max} &= \frac{Q}{4R^4\pi \epsilon_0}(4R \frac{2R}{3}-3(\frac{2R}{3})^2)\\
 \end{aligned}
 $$
 
-22.73 A very long conducting tube (hollow cylinder) has inner radius $a$ and outer radius $b$. It carries charge per unit length $−\alpha$ where $\alpha$ is a positive constant with units of C/m. A line of charge lies along the axis of the tube. The line of charge has charge per unit length $\alpha$.
+22.73 A very long conducting tube (hollow cylinder) has inner radius $a$ and outer radius $b$. It carries charge per unit length $− \alpha$ where $\alpha$ is a positive constant with units of C/m. A line of charge lies along the axis of the tube. The line of charge has charge per unit length $\alpha$.
 (a) Calculate the magnitude the electric field in terms of $\alpha$ and the distance $r$ from the axis of the tube for $r<a$.
 (b) Calculate the magnitude the electric field in terms of α and the distance r from the axis of the tube for $a < r < b$.
 (c) Calculate the magnitude the electric field in terms of α and the distance r from the axis of the tube for $r>b$.
