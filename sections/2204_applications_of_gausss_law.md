@@ -113,7 +113,7 @@ $$
 \rho(r) &= \rho_0(1-\frac{r}{R}) & \text{for } r \les R\\
 \rho(r) &= 0 & \text{for } r \ges R
 \end{aligned}
-$$\
+$$
 where $\rho_0 = 3Q/\pi R^3$ is a positive constant.
 (a) Show that the total charge contained in the charge distribution is $Q$.
 (b) Show that the electric field in the region $r\ges R$ is identical to that produced by a point charge $Q$ at $r = 0$.
