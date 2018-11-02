@@ -13,10 +13,10 @@ $d$ - Distance between slits
 $\th$ - Angle of line from center of the slit array to *m*th bright region on screen
 $\lambda$ - Wavelength
 
-#### Examples
+#### EXAMPLE 36.4 Width of a Grating Spectrum
 The wavelengths of the visible spectrum are approximately 380 nm (violet) to 750 nm (red). (a) Find the angular limits of the firstorder visible spectrum produced by a plane grating with 600 slits per millimeter when white light falls normally on the grating. (b) Do the first-order and second-order spectra overlap? What about the second-order and third-order spectra? Do your answers depend on the grating spacing?
 >Solution
-We must find the angles spanned by the visible specttrum in the first-, second-, and third-order spectra. Thest correspond to m=1, 2, and 3 in Eq.(36.13).
+We must find the angles spanned by the visible specttrum in the first-, second-, and third-order spectra. These correspond to m=1, 2, and 3 in Eq.(36.13).
 a. The grating spacing is
 $$
 \begin{aligned}

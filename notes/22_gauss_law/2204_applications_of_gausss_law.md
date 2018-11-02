@@ -42,7 +42,7 @@ $$
 a. $6.47\times 10^5 N/C$. Positive y-axis direction.
 b. $7.2\times 10^4 N/C$. Negative y-axis direction.
 
-22.22 A point charge of -3.00 $\mu C$ is located in the center of a spherical cavity of radius 6.90 cm inside an insulating spherical charged solid. The charge density in the solid is $7.35 × 10^{−4} C/m^3$. Calculate the magnitude of the electric field inside the solid at a distance of 9.30 cm from the center of the cavity.
+22.22 A point charge of -3.00 $\mu C$ is located in the center of a spherical cavity of radius 6.90 cm inside an insulating spherical charged solid. The charge density in the solid is $7.35 × 10^{-4} C/m^3$. Calculate the magnitude of the electric field inside the solid at a distance of 9.30 cm from the center of the cavity.
 >Solution
 Let the radius of the cavity be $r_1$, and the distance from the Gaussian Surface to the center of the cavity be $r_2$. The charge enclosed by the solid from $r_1$  to $r_2$ is
 $$
@@ -154,7 +154,7 @@ E_{max} &= \frac{Q}{4R^4\pi \epsilon_0}(4R \frac{2R}{3}-3(\frac{2R}{3})^2)\\
 \end{aligned}
 $$
 
-22.73 A very long conducting tube (hollow cylinder) has inner radius $a$ and outer radius $b$. It carries charge per unit length $− \alpha$ where $\alpha$ is a positive constant with units of C/m. A line of charge lies along the axis of the tube. The line of charge has charge per unit length $\alpha$.
+22.73 A very long conducting tube (hollow cylinder) has inner radius $a$ and outer radius $b$. It carries charge per unit length $- \alpha$ where $\alpha$ is a positive constant with units of C/m. A line of charge lies along the axis of the tube. The line of charge has charge per unit length $\alpha$.
 (a) Calculate the magnitude the electric field in terms of $\alpha$ and the distance $r$ from the axis of the tube for $r<a$.
 (b) Calculate the magnitude the electric field in terms of α and the distance r from the axis of the tube for $a < r < b$.
 (c) Calculate the magnitude the electric field in terms of α and the distance r from the axis of the tube for $r>b$.
