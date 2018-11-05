@@ -1,5 +1,5 @@
 ---
-tags: [rainbow]
+tags: []
 ---
 
 ### 2401 Capacitors and Capacitance

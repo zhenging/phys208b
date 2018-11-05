@@ -10,7 +10,7 @@ When two or more waves overlap, the resultant displacement at any point and at a
 #### Constructive and Destructive Interference
 Two monochromatic sources of the same frequency and with a constant phase relationship (not necessarily in phase) are said to be **coherent**.
 
-![Graph](../assets/35_02.png)
+![Graph](../assets/3502.png)
 
 In general, when waves from two or more sources arrive at a point in phase, they reinforce each other: The amplitude of the resultant wave is the sum of the amplitudes of the individual waves. This is called **constructive interference**.
 $$
@@ -30,7 +30,7 @@ $$
 5, 6
 
 35.5 Two speakers, emitting identical sound waves of wavelength 2.0 m in phase with each other, and an observer are located as shown in the figure (Figure 1).
-![Graph](../assets/YF-35-05.jpg)
+![Graph](../assets/3505.jpg)
 (a) At the observer's location, what is the path difference for waves from the two speakers?
 (b) Will the sound waves interfere constructively or destructively at the observer’s location—or something in between constructive and destructive?
 >Solution

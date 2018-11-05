@@ -1,3 +1,7 @@
+---
+tags: []
+---
+
 ### 2403 Energy Storage in Capacitors
 Let $q$ and $v$ be the charge and potential differencem respectively, at an intermediate stage during the charging processing, then $v =q/c$. At this stage the work $dW$ required to transfer an additional element of charge $dq$ is
 $$

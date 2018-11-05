@@ -1,5 +1,5 @@
 ---
-tags: [rainbow]
+tags: []
 ---
 
 ### 2402 Capacitors in Series And Parallel
