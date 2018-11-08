@@ -10,6 +10,8 @@ tags: []
 34.4 A concave mirror has a radius of curvature of 34.0 cm.
 (a) What is its focal length?
 (b) If the mirror is immersed in water (refractive index 1.33), what is its focal length?
+>Solution
+Todo
 
 34.5 An object 0.650 cm tall is placed 16.5 cm to the left of the vertex of a concave spherical mirror having a radius of curvature of 24.0 cm.
 (a) Determine the position of the image.
@@ -53,4 +55,6 @@ a. m = 5.81
 b. -75.6 cm
 c. Graph
 
-34.14 For a convex spherical mirror that has focal length $f = -12.0 \text cm, what is the distance of an object from the mirror’s vertex if the height of the image is half the height of the object?
+34.14 For a convex spherical mirror that has focal length $f = -12.0$ cm, what is the distance of an object from the mirror’s vertex if the height of the image is half the height of the object?
+>Solution
+Todo

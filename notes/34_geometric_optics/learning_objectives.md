@@ -13,5 +13,5 @@ Exercises: 4, 8, 10, 11
 Exercises: 28, 30, 34, 37, 41, 42, 43
 
 3\. Understand the operation of the eye, and how farsightedness and nearsightness can be corrected
->Ch. 34.6
-Exercises: 52, 53, 54
+
+#### Challenge
