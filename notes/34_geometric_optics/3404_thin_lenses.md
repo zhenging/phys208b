@@ -4,6 +4,14 @@ tags: []
 
 ### 3404 Thin Lenses
 
+(6) What image does an object more than twice the distance of the focal length from a converging mirror produce?
+>Solution
+Real, invered and reduced.
+
+(7) The near point for a far-sighted person is at 100cm. What focal length will allow the person to clearly see an object 25cm away?
+>Solution
+33cm
+
 #### Exercises
 27, 28, 30, 32
 
@@ -72,3 +80,8 @@ $$
 (b) The images is real and inverted.
 (c) The focal length is $f = (\frac{1}{6} + \frac{78}{6})^{-1} = 0.076\text{m}$.
 (d) THe lens is a converging lens.
+
+#### Quiz
+(11) Two lens combination is separated by 50cm. The focal length is 10cm, and the focal length of the second lens is 15cm. What is the resultant image position (measured from lens 2) and the magnification?
+>Solution
+60cm, +6

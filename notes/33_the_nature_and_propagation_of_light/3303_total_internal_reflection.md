@@ -14,3 +14,9 @@ tags: []
 33.17 The critical angle for total internal reflection at a liquid– air interface is $42.5\degree$. (a) If a ray of light traveling in the liquid has an angle of incidence at the interface of $35.0\degree$, what angle does the refracted ray in the air make with the normal? (b) If a ray of light traveling in air has an angle of incidence at the interface of $35.0\degree$, what angle does the refracted ray in the liquid make with the normal?
 
 33.21 Light is incident along the normal on face AB of a glass prism of refractive index $1.52$, as shown in Fig. E33.21. Find the largest value the angle a can have without any light refracted out of the prism at face AC if (a) the prism is immersed in air and (b) the prism is immersed in water.
+
+
+#### Quiz
+(12) The critial angle at an air, glass interface is $42\degree$. Calculate the angle of refraction into air if the incident angle is $30\degree$. ($n_{air} = 1$)
+>Solution
+$48.4\degree$

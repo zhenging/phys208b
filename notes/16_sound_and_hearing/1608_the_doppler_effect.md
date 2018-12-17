@@ -101,3 +101,13 @@ Todo
 16.48 **Moving Source vs. Moving Listener**. (a) A sound source producing 1.00-kHz waves moves toward a stationary listener at one-half the speed of sound. What frequency will the listener hear? (b) Suppose instead that the source is stationary and the listener moves toward the source at one-half the speed of sound. What frequency does the listener hear? How does your answer compare to that in part (a)? Explain on physical grounds why the two answers differ.
 >Solution
 Todo
+
+#### Quiz
+(10) If a sound source with a 1000HZ frequency moves away from the listener at 15m/s, and a listener moves a speed of 45m/s away from the source, what is the apparent frequence heard by the listener? (The velocity of sound is 340m/s)?
+>Solution
+Positive direction Listener -> Source
+$$
+\begin{aligned}
+f_L = \frac{v-v_L}{v+v_S} f_S
+\end{aligned}
+$$
