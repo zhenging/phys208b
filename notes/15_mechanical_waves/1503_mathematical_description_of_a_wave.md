@@ -83,7 +83,7 @@ $$
 #### Exercises
 7, 8, 9, 10, 11, 12
 
-15.7 Transverse waves on a string have wave speed 8.00 m/s, amplitude 0.0700 m, and wavelength 0.320 m. The waves travel in the −x-direction, and at t = 0 the x = 0 end of the string has its maximum upward displacement.
+15.7 Transverse waves on a string have wave speed $8.00$ m/s, amplitude $0.0700$ m, and wavelength 0.320 m. The waves travel in the −x-direction, and at $t = 0$ the $x = 0$ end of the string has its maximum upward displacement.
 (a) Find the frequency, period, and wave number of these waves.
 (b) Write a wave function describing the wave.
 (c) Find the transverse displacement of a particle at $x = 0.360$ m at time $t = 0.150$ s.
